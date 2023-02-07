@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: black;
+    background-image: url('/images/homebackground.jpg');    
+    color: darkred;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-size: 100%;
+}
+
+.logo {
+    
+    width: 2vw;
+    
+
+}
+
+.dead {
+    position: absolute;
+    width: 10vw;
+    left: 32vw;
+    top: 24vh;
+
+}
+
+
+.pool {
+    position: absolute;
+    width: 10vw;
+    left: 32vw;
+    top: 33vh;
+}
+
+
+.photos {
+    position: absolute;
+    width: 13vw;
+    left: 19vw;
+    top: 19vh;
+}
+
+.paintings {
+    position: absolute;
+    width: 13vw;
+    left: 18vw;
+    top: 33vh;
+}
+
+.video {
+    position: absolute;
+    left: 18vw;
+    top: 20vh;
+}
+
+.videoTitle { 
+    margin-left: 45vw;
+    margin-top: 5vh;
+}
+
+.poolImg {
+    position: absolute;
+    left: 20vw;
+  
+}
+
+.img {
+    width: 45vw;
+    padding-left: 3vw;
+}
+
+
+.containerlogo {
+    display: flex;
+}
